@@ -28,9 +28,12 @@
             Home
           </li>
         </router-link>
-        <a href="#" target="_blank">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white">My Blog</li>
-        </a>
+        <!--<a href="#" target="_blank">-->
+        <li class="line-height-50 text-align-center font-size-20 textclolor-white">
+          Blog
+          <span style="font-size: 12px">敬请期待...</span>
+        </li>
+        <!--</a>-->
       </ul>
 
       <mu-list @itemClick="closeBottomSheet" class="bg-333">

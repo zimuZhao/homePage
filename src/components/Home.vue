@@ -16,85 +16,133 @@
       </el-carousel-item>
     </el-carousel>
     <!-- /ends banner -->
-    <!-- HomeArticle -->
+    <!--projectList -->
     <div class="box-flex flex-direction-column margin-top-2">
-      <!-- article1 left -->
+      <!-- 会议会展宣传 left -->
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/homeArticle1.png">
+            <img class="images-con imgpic" src="../assets/project1.jpg">
           </div>
-          <div class="box-flex flex-1 padding-all flex-direction-column">
-            <a href="#">
-              <span class="tirtleFont lineThrou">Vue应用及组件分享</span>
+          <div class="box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/showcase/player.html" target="_blank">
+              <span class="tirtleFont lineThrou">会议会展宣传</span>
             </a>
-            <span class="contentFont">Vue应用及组件分享</span>
+            <span class="contentFont">
+              公司参与多彩贵州网2016年5月7日举办的产品推介会所展示的H5。<br>
+              钥匙还在身上，回家的路并不遥远...
+            </span>
           </div>
         </div>
       </div>
-      <!-- /ends article1 -->
-      <!-- article2 right -->
+      <!-- /ends 会议会展宣传 -->
+      <!-- 数据解读 right -->
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
-          <div class="box-flex flex-1 padding-all flex-direction-column">
-            <a href="#">
-              <span class="tirtleFont lineThrou">实现</span>
+          <div class="text-right box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/InvitationLetter/index.html" target="_blank">
+              <span class="tirtleFont lineThrou">数据解读</span>
             </a>
-            <span class="contentFont">实现</span>
+            <span class="contentFont">移动端分析数据H5展示页</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/homeArticle2.png">
+            <img class="images-con imgpic" src="../assets/project2.jpg">
           </div>
         </div>
       </div>
-      <!-- /ends article2 -->
-      <!-- article3 left -->
-      <div class="box-flex width-80 margin-auto">
-        <div class="box-flex width-100">
-          <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/homeArticle3.jpg">
-          </div>
-          <div class="box-flex flex-1 padding-all flex-direction-column">
-            <a href="#">
-              <span class="tirtleFont lineThrou">Vue应用及组件分享</span>
-            </a>
-            <span class="contentFont">Vue应用及组件分享</span>
-          </div>
-        </div>
-      </div>
-      <!-- /ends article3 -->
-      <!-- article4 right -->
-      <div class="box-flex width-80 margin-auto">
-        <div class="box-flex width-100">
-          <div class="box-flex flex-1 padding-all flex-direction-column">
-            <a href="#">
-              <span class="tirtleFont lineThrou">实现</span>
-            </a>
-            <span class="contentFont">实现</span>
-          </div>
-          <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/homeArticle4.jpg">
-          </div>
-        </div>
-      </div>
-      <!-- /ends article4 -->
-      <!-- article5 left -->
+      <!-- /ends 数据解读 -->
+      <!-- 民生银行抽奖 left -->
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/homeArticle5.png">
+            <img class="images-con imgpic" src="../assets/project3.jpg">
           </div>
-          <div class="box-flex flex-1 padding-all flex-direction-column">
+          <div class="box-flex flex-2 padding-all flex-direction-column">
             <a href="#">
-              <span class="tirtleFont lineThrou">Vue应用及组件分享</span>
+              <span class="tirtleFont lineThrou">2016民生银行刮卡领奖活动</span>
             </a>
-            <span class="contentFont">Vue应用及组件分享</span>
+            <span class="contentFont">内嵌于微信公众号的活动页</span>
           </div>
         </div>
       </div>
-      <!-- /ends article5 -->
+      <!-- /ends 民生银行抽奖 -->
+      <!-- 八爪WIFI宣传 right -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="text-right box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/BazhuaWIFI/index.html" target="_blank">
+              <span class="tirtleFont lineThrou">八爪WIFI宣传</span>
+            </a>
+            <span class="contentFont">产品宣传网站</span>
+          </div>
+          <div class="flex-1">
+            <img class="images-con imgpic" src="../assets/project4.png">
+          </div>
+        </div>
+      </div>
+      <!-- /ends 八爪WIFI宣传 -->
+      <!-- 公司官网 left -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="flex-1">
+            <img class="images-con imgpic" src="../assets/project5.jpg">
+          </div>
+          <div class="box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://www.cloudpioneer.com.cn/" target="_blank">
+              <span class="tirtleFont lineThrou">Cloudpioneer贵州耕云科技官方网站</span>
+            </a>
+            <span class="contentFont">公司官网</span>
+          </div>
+        </div>
+      </div>
+      <!-- /ends 公司官网 -->
+      <!-- 八爪WIFI宣传 right -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="text-right box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/BazhuaWIFI/index.html" target="_blank">
+              <span class="tirtleFont lineThrou">工大雪夜</span>
+            </a>
+            <span class="contentFont">Three.js绘制webGL初试</span>
+          </div>
+          <div class="flex-1">
+            <img class="images-con imgpic" src="../assets/project6.jpg">
+          </div>
+        </div>
+      </div>
+      <!-- /ends 八爪WIFI宣传 -->
+      <!-- 手势解锁 left -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="flex-1">
+            <img class="images-con imgpic" src="../assets/project7.jpg">
+          </div>
+          <div class="box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/touch-unlock.html" target="_blank">
+              <span class="tirtleFont lineThrou">手势解锁</span>
+            </a>
+            <span class="contentFont">存储canvas绘制路径以备比对</span>
+          </div>
+        </div>
+      </div>
+      <!-- /ends 手势解锁 -->
+      <!-- 计算明天 right -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="text-right box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/next-day/next-day.html" target="_blank">
+              <span class="tirtleFont lineThrou">计算明天</span>
+            </a>
+            <span class="contentFont">HIT小作业</span>
+          </div>
+          <div class="flex-1">
+            <img class="images-con imgpic" src="../assets/project8.jpg">
+          </div>
+        </div>
+      </div>
+      <!-- /ends 明天计算 -->
     </div>
-    <!-- /ends HomeArticle -->
+    <!-- /ends projectList -->
     <!-- My Work -->
     <div
       class="box-flex width-80 margin-auto margin-top-2 padding-top-5 padding-bottom-3 text-align-center flex-justify-center flex-items-center">
@@ -105,38 +153,38 @@
       <div class="box-flex flex-direction-row margin-top-2" style="height:60vh">
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/pi2.jpg">
+            <img class="images-height100 imgpic" src="../assets/project2.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/pic.jpg">
+            <img class="images-height100 imgpic" src="../assets/project5.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/bg1.jpg">
+            <img class="images-height100 imgpic" src="../assets/project3.jpg">
           </div>
         </div>
         <div class="flex-4 flex-direction-column">
           <div class="flex-4 overflow-hide" style="height:40vh">
-            <img class="images-height100 imgpic" src="../assets/bg2.jpg">
+            <img class="images-height100 imgpic" src="../assets/project1.jpg">
           </div>
           <div class="box-flex flex-2 overflow-hide flex-direction-row flex-justify-flex-start flex-items-flex-start"
                style="height:20vh">
             <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../assets/bg3.jpg">
+              <img class="images-height100 imgpic" src="../assets/project4.png">
             </div>
             <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../assets/pi2.jpg">
+              <img class="images-height100 imgpic" src="../assets/project7.jpg">
             </div>
           </div>
         </div>
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/pic.jpg">
+            <img class="images-height100 imgpic" src="../assets/project6.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/bg1.jpg">
+            <img class="images-height100 imgpic" src="../assets/project8.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/pi1.jpg">
+            <img class="images-height100 imgpic" src="../assets/project1.jpg">
           </div>
         </div>
       </div>
@@ -173,10 +221,10 @@
             <span class="ion-ios-list-outline font-size-16"></span>
           </div>
           <div class="box-flex flex-3 padding-left-3 text-align-left">
-            <p>90后，技术宅，前端狂热爱好者，设计爱好者，动漫迷，游戏爱好者，目前所在地 上海浦东<br/>
-              技术栈 ：web前端，UI设计，nodejs express mongodb ，react ，vue ，angularjs Ionic||angularjs bootstrap ，ReactNative，php Thinkphp mysql<br/>
-              GitHub个人主页地址： https://github.com/liuyahuiZ<br/>
-              站酷个人主页地址：http://paoying.zcool.com.cn<br/>
+            <p>
+              90后，技术宅，前端狂热爱好者<br/>
+              坐标： 北京<br/>
+              GitHub地址： https://github.com/zimuZhao<br/>
             </p>
           </div>
         </div>
@@ -225,6 +273,10 @@
   .lineThrou:hover {
     text-decoration: line-through;
     cursor: pointer
+  }
+
+  .text-right {
+    text-align: right;
   }
 
 </style>
