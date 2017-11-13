@@ -4,19 +4,18 @@
          v-bind:class="{ bghand: showbar, bgtrans: !showbar }">
       <div
         class="width-80 margin-auto box-flex text-align-center flex-direction-row flex-wrap flex-justify-center flex-items-center height-100">
+        <!-- bottomSheet -->
         <div class="flex-1 text-align-left flex-self-center ">
           <span class="ion-navicon-round font-size-26" @click="openBottomSheet"></span>
         </div>
-        <div class="flex-3 height-50 line-height-50 flex-direction-row flex-items-flex-start unselect">
-          <div class="flex-2">
-            <img class="height-100" src="../Img/logo_b.png" lazy="loaded">
-          </div>
+        <!-- /ends bottomSheet -->
+
+        <div class="flex-3 flex-offset-1 height-50 line-height-50 flex-direction-row flex-items-flex-start unselect">
+          <img class="height-100" src="../assets/logo_b.png" lazy="loaded">
         </div>
-        <div class="flex-1 text-align-right flex-self-center">
-          <router-link to="/surch">
-            <span class="ion-search font-size-26"></span>
-          </router-link>
-        </div>
+
+        <div class="flex-1 text-align-left flex-self-center"></div>
+
       </div>
     </div>
     <mu-bottom-sheet :open="bottomSheet" @close="closeBottomSheet">
@@ -29,32 +28,9 @@
             Home
           </li>
         </router-link>
-        <router-link to="/workList">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white" @click="closeBottomSheet">
-            My Work
-          </li>
-        </router-link>
-        <router-link to="/myshill">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white" @click="closeBottomSheet">
-            My Shill
-          </li>
-        </router-link>
-        <router-link to="/articleList">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white" @click="closeBottomSheet">
-            My Blog
-          </li>
-        </router-link>
-        <router-link to="/chat">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white" @click="closeBottomSheet">
-            Chat coll
-          </li>
-        </router-link>
-        <router-link to="/contact">
-          <li class="line-height-50 text-align-center font-size-20 textclolor-white" @click="closeBottomSheet">
-            Contact Me
-          </li>
-        </router-link>
-
+        <a href="#" target="_blank">
+          <li class="line-height-50 text-align-center font-size-20 textclolor-white">My Blog</li>
+        </a>
       </ul>
 
       <mu-list @itemClick="closeBottomSheet" class="bg-333">
@@ -64,7 +40,7 @@
         </div>
         <div
           class="width-100 text-align-center margin-top-2 margin-bottom-3 flex-justify-center  flex-items-center flex-content-center bg-333">
-          <my-link v-on:ee="incrementTotal"></my-link>
+          <my-link></my-link>
         </div>
       </mu-list>
     </mu-bottom-sheet>
@@ -86,39 +62,15 @@
     },
     props: ['showbar', 'name'],
     methods: {
-      goback: function () {
-        window.history.back()
-      },
-      inarray: function (arr, item) {
-        let status = {}
-        for (let i = 0; i < arr.length; i++) {
-          if (arr[i].name === item) {
-            status = {'status': true, 'index': i}
-            break
-          }
-          if (i === (arr.length - 1)) {
-            status = {'status': false, 'index': i}
-          }
-        }
-        if (arr.length === 0) {
-          status = {'status': false, 'index': 0}
-        }
-        return status
-      },
       closeBottomSheet () {
         this.bottomSheet = false
       },
       openBottomSheet () {
         this.bottomSheet = true
-      },
-      incrementTotal (i){
-        console.log(i)
-        console.log('call parent')
       }
     },
     watch: {
       name: function (newQuestion) {
-        console.log('newQuestion', newQuestion)
         if (newQuestion === 'slide-fade') {
           this.focusStatus = true
           this.slidName = 'list'
@@ -126,7 +78,6 @@
           this.focusStatus = false
           this.slidName = 'topleave'
         }
-        console.log(this.focusStatus)
       },
       totitle: function (newQuestion) {
         let o = this.title
@@ -137,7 +88,6 @@
       }
     },
     created: function () {
-      console.log('enter')
       this.title.push({'name': this.totitle})
     }
 

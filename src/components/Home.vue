@@ -3,16 +3,16 @@
     <!-- banner -->
     <el-carousel class="bannerHeight">
       <el-carousel-item key=1>
-        <img class="images-con" src="../Img/home1.jpg">
+        <img class="images-con" src="../assets/home1.jpg">
       </el-carousel-item>
       <el-carousel-item key=2>
-        <img class="images-con" src="../Img/home2.jpg">
+        <img class="images-con" src="../assets/home2.jpg">
       </el-carousel-item>
       <el-carousel-item key=3>
-        <img class="images-con" src="../Img/home3.jpg">
+        <img class="images-con" src="../assets/home3.jpg">
       </el-carousel-item>
       <el-carousel-item key=4>
-        <img class="images-con" src="../Img/home4.jpg">
+        <img class="images-con" src="../assets/home4.jpg">
       </el-carousel-item>
     </el-carousel>
     <!-- /ends banner -->
@@ -22,7 +22,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../Img/homeArticle1.png">
+            <img class="images-con imgpic" src="../assets/homeArticle1.png">
           </div>
           <div class="box-flex flex-1 padding-all flex-direction-column">
             <a href="#">
@@ -43,7 +43,7 @@
             <span class="contentFont">实现</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../Img/homeArticle2.png">
+            <img class="images-con imgpic" src="../assets/homeArticle2.png">
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../Img/homeArticle3.jpg">
+            <img class="images-con imgpic" src="../assets/homeArticle3.jpg">
           </div>
           <div class="box-flex flex-1 padding-all flex-direction-column">
             <a href="#">
@@ -73,7 +73,7 @@
             <span class="contentFont">实现</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../Img/homeArticle4.jpg">
+            <img class="images-con imgpic" src="../assets/homeArticle4.jpg">
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../Img/homeArticle5.png">
+            <img class="images-con imgpic" src="../assets/homeArticle5.png">
           </div>
           <div class="box-flex flex-1 padding-all flex-direction-column">
             <a href="#">
@@ -105,75 +105,50 @@
       <div class="box-flex flex-direction-row margin-top-2" style="height:60vh">
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/pi2.jpg">
+            <img class="images-height100 imgpic" src="../assets/pi2.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/pic.jpg">
+            <img class="images-height100 imgpic" src="../assets/pic.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/bg1.jpg">
+            <img class="images-height100 imgpic" src="../assets/bg1.jpg">
           </div>
         </div>
         <div class="flex-4 flex-direction-column">
           <div class="flex-4 overflow-hide" style="height:40vh">
-            <img class="images-height100 imgpic" src="../Img/bg2.jpg">
+            <img class="images-height100 imgpic" src="../assets/bg2.jpg">
           </div>
           <div class="box-flex flex-2 overflow-hide flex-direction-row flex-justify-flex-start flex-items-flex-start"
                style="height:20vh">
             <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../Img/bg3.jpg">
+              <img class="images-height100 imgpic" src="../assets/bg3.jpg">
             </div>
             <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../Img/pi2.jpg">
+              <img class="images-height100 imgpic" src="../assets/pi2.jpg">
             </div>
           </div>
         </div>
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/pic.jpg">
+            <img class="images-height100 imgpic" src="../assets/pic.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/bg1.jpg">
+            <img class="images-height100 imgpic" src="../assets/bg1.jpg">
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../Img/pi1.jpg">
+            <img class="images-height100 imgpic" src="../assets/pi1.jpg">
           </div>
         </div>
       </div>
     </div>
     <!-- /ends My Work -->
-    <!-- My Skill -->
-    <div
-      class="box-flex width-100 margin-auto margin-top-2 padding-top-5 padding-bottom-5 bg-f5c853 text-align-center flex-justify-center flex-items-center">
-      <div class="line-height-30 font-size-26 lineThrou">My Skill</div>
-    </div>
-    <div
-      class="box-flex width-100 bg-f5c853 text-align-center margin-auto padding-top-2 padding-bottom-10 flex-direction-row flex-justify-center flex-items-center">
-      <div class="flex-direction-column">
-        <el-progress type="circle" class="margin-right-1" :percentage="80"></el-progress>
-        <span>JavaScript</span>
-      </div>
-      <div class="flex-direction-column">
-        <el-progress type="circle" class="margin-right-1" :percentage="75"></el-progress>
-        <span>Node</span>
-      </div>
-      <div class="flex-direction-column">
-        <el-progress type="circle" class="margin-right-1" :percentage="90"></el-progress>
-        <span>PS</span>
-      </div>
-      <div class="flex-direction-column">
-        <el-progress type="circle" class="margin-right-1" :percentage="65"></el-progress>
-        <span>React</span>
-      </div>
-    </div>
-    <!-- /ends My Skill -->
     <!-- Personal Profile -->
     <div
-      class="box-flex width-100 margin-auto margin-top-2 padding-top-5 padding-bottom-5 text-align-center flex-justify-center flex-items-center">
+      class="bg-efeff4 box-flex width-100 margin-auto margin-top-2 padding-top-5 padding-bottom-5 text-align-center flex-justify-center flex-items-center">
       <div class="line-height-30 font-size-26 lineThrou">Personal Profile</div>
     </div>
     <div
-      class="box-flex width-100 text-align-center margin-auto padding-all padding-bottom-5 perenContent flex-justify-center flex-items-center">
+      class="bg-efeff4 box-flex width-100 text-align-center margin-auto padding-all padding-bottom-5 perenContent flex-justify-center flex-items-center">
       <div class="box-flex flex-1 flex-direction-column flex-justify-center flex-items-center">
         <div class="box-flex width-100 flex-direction-row">
           <div class="box-flex flex-1 flex-justify-flex-end height-40 line-height-40">
@@ -208,14 +183,14 @@
       </div>
       <div class="box-flex flex-1 flex-direction-column flex-justify-center flex-items-center">
         <div class="imground">
-          <img class="imground" src="../Img/headImg.jpg">
+          <img class="imground" src="../assets/headImg.jpg">
         </div>
       </div>
     </div>
     <!-- /ends Personal Profile -->
     <div class="box-flex height-200 bg-333 flex-direction-column flex-justify-center flex-items-center">
       <div class="line-height-30 tirtleFont textclolor-black-low">
-        © 2017 All rights reserved. Design and development by ZIMOON
+        © 2017 All rights reserved. Development by ZIMOON
       </div>
       <div class="line-height-30 iconFont textclolor-white ">Projects made with </div>
       <my-link></my-link>
