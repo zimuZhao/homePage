@@ -10,9 +10,7 @@
         </div>
         <!-- /ends bottomSheet -->
 
-        <div class="flex-3 flex-offset-1 height-50 line-height-50 flex-direction-row flex-items-flex-start unselect">
-          <img class="height-100" src="../assets/logo_b.png" lazy="loaded">
-        </div>
+        <div class="flex-3 flex-offset-1 flex-direction-row flex-items-flex-start unselect"></div>
 
         <div class="flex-1 text-align-left flex-self-center"></div>
 
