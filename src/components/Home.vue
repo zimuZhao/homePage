@@ -3,26 +3,87 @@
     <!-- banner -->
     <el-carousel class="bannerHeight">
       <el-carousel-item key=1>
-        <img class="images-con" src="../assets/home1.jpg">
+        <img class="images-con" src="../assets/home1.jpg"/>
       </el-carousel-item>
       <el-carousel-item key=2>
-        <img class="images-con" src="../assets/home2.jpg">
+        <img class="images-con" src="../assets/home2.jpg"/>
       </el-carousel-item>
       <el-carousel-item key=3>
-        <img class="images-con" src="../assets/home3.jpg">
+        <img class="images-con" src="../assets/home3.jpg"/>
       </el-carousel-item>
       <el-carousel-item key=4>
-        <img class="images-con" src="../assets/home4.jpg">
+        <img class="images-con" src="../assets/home4.jpg"/>
       </el-carousel-item>
     </el-carousel>
     <!-- /ends banner -->
+    <!-- My Work -->
+    <div
+      class="box-flex width-80 margin-auto margin-top-2 padding-top-5 padding-bottom-3 text-align-center flex-justify-center flex-items-center">
+      <div class="line-height-30 font-size-26 lineThrou">My Work</div>
+    </div>
+    <div
+      class="box-flex width-100 margin-auto text-align-center flex-direction-column flex-wrap flex-justify-center flex-items-center flex-content-space-around">
+      <div class="box-flex flex-direction-row margin-top-2" style="height:60vh">
+        <div class="flex-2 overflow-hide flex-direction-column">
+          <div style="height:20vh">
+            <a href="http://zimu4show.cn/InvitationLetter/index.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project2.jpg"/>
+            </a>
+          </div>
+          <div style="height:20vh">
+            <a href="http://www.cloudpioneer.com.cn/" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project5.jpg"/>
+            </a>
+          </div>
+          <div style="height:20vh">
+            <img class="images-height100 imgpic" src="../assets/project3.jpg"/>
+          </div>
+        </div>
+        <div class="flex-4 flex-direction-column">
+          <div class="flex-4 overflow-hide" style="height:40vh">
+            <a href="http://zimu4show.cn/showcase/player.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project1.jpg"/>
+            </a>
+          </div>
+          <div class="box-flex flex-2 overflow-hide flex-direction-row flex-justify-flex-start flex-items-flex-start"
+               style="height:20vh">
+            <div class="flex-1" style="width:50%;height:20vh">
+              <a href="http://zimu4show.cn/BazhuaWIFI/index.html" target="_blank">
+                <img class="images-height100 imgpic" src="../assets/project4.png"/>
+              </a>
+            </div>
+            <div class="flex-1" style="width:50%;height:20vh">
+              <a href="http://zimu4show.cn/touch-unlock.html" target="_blank">
+                <img class="images-height100 imgpic" src="../assets/project7.jpg"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-2 overflow-hide flex-direction-column">
+          <div style="height:20vh">
+            <a href="http://zimu4show.cn/snowDay/HIT.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project6.jpg"/>
+            </a>
+          </div>
+          <div style="height:20vh">
+            <a href="http://zimu4show.cn/next-day/next-day.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project8.jpg"/>
+            </a>
+          </div>
+          <div style="height:20vh">
+            <img class="images-height100 imgpic" src="../assets/project1.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /ends My Work -->
     <!--projectList -->
     <div class="box-flex flex-direction-column margin-top-2">
       <!-- 会议会展宣传 left -->
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project1.jpg">
+            <img class="images-con imgpic" src="../assets/project1.jpg"/>
           </div>
           <div class="box-flex flex-2 padding-all flex-direction-column">
             <a href="http://zimu4show.cn/showcase/player.html" target="_blank">
@@ -46,7 +107,7 @@
             <span class="contentFont">移动端分析数据H5展示页</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project2.jpg">
+            <img class="images-con imgpic" src="../assets/project2.jpg"/>
           </div>
         </div>
       </div>
@@ -55,7 +116,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project3.jpg">
+            <img class="images-con imgpic" src="../assets/project3.jpg"/>
           </div>
           <div class="box-flex flex-2 padding-all flex-direction-column">
             <a href="#">
@@ -76,7 +137,7 @@
             <span class="contentFont">产品宣传网站</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project4.png">
+            <img class="images-con imgpic" src="../assets/project4.png"/>
           </div>
         </div>
       </div>
@@ -85,7 +146,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project5.jpg">
+            <img class="images-con imgpic" src="../assets/project5.jpg"/>
           </div>
           <div class="box-flex flex-2 padding-all flex-direction-column">
             <a href="http://www.cloudpioneer.com.cn/" target="_blank">
@@ -100,13 +161,13 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="text-right box-flex flex-2 padding-all flex-direction-column">
-            <a href="http://zimu4show.cn/BazhuaWIFI/index.html" target="_blank">
+            <a href="http://zimu4show.cn/snowDay/HIT.html" target="_blank">
               <span class="tirtleFont lineThrou">工大雪夜</span>
             </a>
             <span class="contentFont">Three.js绘制webGL初试</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project6.jpg">
+            <img class="images-con imgpic" src="../assets/project6.jpg"/>
           </div>
         </div>
       </div>
@@ -115,7 +176,7 @@
       <div class="box-flex width-80 margin-auto">
         <div class="box-flex width-100">
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project7.jpg">
+            <img class="images-con imgpic" src="../assets/project7.jpg"/>
           </div>
           <div class="box-flex flex-2 padding-all flex-direction-column">
             <a href="http://zimu4show.cn/touch-unlock.html" target="_blank">
@@ -136,60 +197,13 @@
             <span class="contentFont">HIT小作业</span>
           </div>
           <div class="flex-1">
-            <img class="images-con imgpic" src="../assets/project8.jpg">
+            <img class="images-con imgpic" src="../assets/project8.jpg"/>
           </div>
         </div>
       </div>
       <!-- /ends 明天计算 -->
     </div>
     <!-- /ends projectList -->
-    <!-- My Work -->
-    <div
-      class="box-flex width-80 margin-auto margin-top-2 padding-top-5 padding-bottom-3 text-align-center flex-justify-center flex-items-center">
-      <div class="line-height-30 font-size-26 lineThrou">My Work</div>
-    </div>
-    <div
-      class="box-flex width-100 margin-auto text-align-center flex-direction-column flex-wrap flex-justify-center flex-items-center flex-content-space-around">
-      <div class="box-flex flex-direction-row margin-top-2" style="height:60vh">
-        <div class="flex-2 overflow-hide flex-direction-column">
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project2.jpg">
-          </div>
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project5.jpg">
-          </div>
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project3.jpg">
-          </div>
-        </div>
-        <div class="flex-4 flex-direction-column">
-          <div class="flex-4 overflow-hide" style="height:40vh">
-            <img class="images-height100 imgpic" src="../assets/project1.jpg">
-          </div>
-          <div class="box-flex flex-2 overflow-hide flex-direction-row flex-justify-flex-start flex-items-flex-start"
-               style="height:20vh">
-            <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../assets/project4.png">
-            </div>
-            <div class="flex-1" style="width:50%;height:20vh">
-              <img class="images-height100 imgpic" src="../assets/project7.jpg">
-            </div>
-          </div>
-        </div>
-        <div class="flex-2 overflow-hide flex-direction-column">
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project6.jpg">
-          </div>
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project8.jpg">
-          </div>
-          <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project1.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /ends My Work -->
     <!-- Personal Profile -->
     <div
       class="bg-efeff4 box-flex width-100 margin-auto margin-top-2 padding-top-5 padding-bottom-5 text-align-center flex-justify-center flex-items-center">
@@ -200,25 +214,25 @@
       <div class="box-flex flex-1 flex-direction-column flex-justify-center flex-items-center">
         <div class="box-flex width-100 flex-direction-row">
           <div class="box-flex flex-1 flex-justify-flex-end height-40 line-height-40">
-            <span class="ion-happy-outline font-size-16"></span>
+            <span class="ion-happy-outline font-size-16"/>
           </div>
           <div class="box-flex flex-3 height-40 line-height-40 padding-left-3">zzm</div>
         </div>
         <div class="box-flex width-100 flex-direction-row">
           <div class="box-flex flex-1 flex-justify-flex-end height-40 line-height-40">
-            <span class="ion-ios-email-outline font-size-16"></span>
+            <span class="ion-ios-email-outline font-size-16"/>
           </div>
           <div class="box-flex flex-3 height-40 line-height-40 padding-left-3">zhaozimu2011@hotmail.com</div>
         </div>
         <div class="box-flex width-100 flex-direction-row">
           <div class="box-flex flex-1 flex-justify-flex-end height-40 line-height-40">
-            <span class="ion-ios-telephone-outline font-size-16"></span>
+            <span class="ion-ios-telephone-outline font-size-16"/>
           </div>
           <div class="box-flex flex-3 height-40 line-height-40 padding-left-3">18518980722</div>
         </div>
         <div class="box-flex width-100 flex-direction-row">
           <div class="box-flex flex-1 flex-justify-flex-end height-40 line-height-40">
-            <span class="ion-ios-list-outline font-size-16"></span>
+            <span class="ion-ios-list-outline font-size-16"/>
           </div>
           <div class="box-flex flex-3 padding-left-3 text-align-left">
             <p>
@@ -231,7 +245,7 @@
       </div>
       <div class="box-flex flex-1 flex-direction-column flex-justify-center flex-items-center">
         <div class="imground">
-          <img class="imground" src="../assets/headImg.jpg">
+          <img class="imground" src="../assets/headImg.jpg"/>
         </div>
       </div>
     </div>
@@ -241,15 +255,15 @@
         © 2017 All rights reserved. Development by ZIMOON
       </div>
       <div class="line-height-30 iconFont textclolor-white ">Projects made with </div>
-      <my-link></my-link>
+      <v-link/>
     </div>
   </div>
 </template>
 <script>
-  import myLink from '@/components/mylink'
+  import vLink from '@/components/link'
   export default {
     components: {
-      myLink
+      vLink
     }
   }
 </script>

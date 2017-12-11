@@ -1,17 +1,17 @@
 <template>
   <div class="page-tabbar">
-    <teheader :showbar='showBar' :name="transitionName"></teheader>
+    <v-header :showbar='showBar' :name="transitionName"/>
     <div class="page-content">
       <transition :name="transitionName" :mode="transModule">
         <keep-alive exclude="Com">
-          <router-view class="view"></router-view>
+          <router-view class="view"/>
         </keep-alive>
       </transition>
     </div>
   </div>
 </template>
 <script>
-  import teheader from './components/teheader.vue'
+  import vHeader from './components/header.vue'
   import 'animate.css'
   export default {
     data () {
@@ -22,7 +22,7 @@
       }
     },
     components: {
-      teheader
+      vHeader
     },
     methods: {
       handleScroll () {

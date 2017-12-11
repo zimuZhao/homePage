@@ -6,19 +6,19 @@
         class="width-80 margin-auto box-flex text-align-center flex-direction-row flex-wrap flex-justify-center flex-items-center height-100">
         <!-- bottomSheet -->
         <div class="flex-1 text-align-left flex-self-center ">
-          <span class="ion-navicon-round font-size-26" @click="openBottomSheet"></span>
+          <span class="ion-navicon-round font-size-26" @click="openBottomSheet"/>
         </div>
         <!-- /ends bottomSheet -->
 
-        <div class="flex-3 flex-offset-1 flex-direction-row flex-items-flex-start unselect"></div>
+        <div class="flex-3 flex-offset-1 flex-direction-row flex-items-flex-start unselect"/>
 
-        <div class="flex-1 text-align-left flex-self-center"></div>
+        <div class="flex-1 text-align-left flex-self-center"/>
 
       </div>
     </div>
     <mu-bottom-sheet :open="bottomSheet" @close="closeBottomSheet">
       <div class="line-height-50 text-align-right bg-333" @click="closeBottomSheet">
-        <span class="ion-close-round font-size-20 margin-right-5 textclolor-white"></span>
+        <span class="ion-close-round font-size-20 margin-right-5 textclolor-white"/>
       </div>
       <ul class="list-all bg-333" @Click="closeBottomSheet">
         <router-link to="/">
@@ -41,14 +41,14 @@
         </div>
         <div
           class="width-100 text-align-center margin-top-2 margin-bottom-3 flex-justify-center  flex-items-center flex-content-center bg-333">
-          <my-link></my-link>
+          <v-link/>
         </div>
       </mu-list>
     </mu-bottom-sheet>
   </div>
 </template>
 <script>
-  import myLink from '@/components/mylink'
+  import vLink from '@/components/link'
   export default {
     data () {
       return {
@@ -59,7 +59,7 @@
       }
     },
     components: {
-      myLink
+      vLink
     },
     props: ['showbar', 'name'],
     methods: {
