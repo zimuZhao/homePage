@@ -26,8 +26,8 @@
       <div class="box-flex flex-direction-row margin-top-2" style="height:60vh">
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <a href="http://zimu4show.cn/InvitationLetter/index.html" target="_blank">
-              <img class="images-height100 imgpic" src="../assets/project2.jpg"/>
+            <a href="http://zimu4show.cn/showcase/player.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project1.jpg"/>
             </a>
           </div>
           <div style="height:20vh">
@@ -41,8 +41,8 @@
         </div>
         <div class="flex-4 flex-direction-column">
           <div class="flex-4 overflow-hide" style="height:40vh">
-            <a href="http://zimu4show.cn/showcase/player.html" target="_blank">
-              <img class="images-height100 imgpic" src="../assets/project1.jpg"/>
+            <a href="http://zimu4show.cn/gamma-transform/gamma.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project9.jpg"/>
             </a>
           </div>
           <div class="box-flex flex-2 overflow-hide flex-direction-row flex-justify-flex-start flex-items-flex-start"
@@ -61,8 +61,8 @@
         </div>
         <div class="flex-2 overflow-hide flex-direction-column">
           <div style="height:20vh">
-            <a href="http://zimu4show.cn/snowDay/HIT.html" target="_blank">
-              <img class="images-height100 imgpic" src="../assets/project6.jpg"/>
+            <a href="http://zimu4show.cn/InvitationLetter/index.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project2.jpg"/>
             </a>
           </div>
           <div style="height:20vh">
@@ -71,7 +71,9 @@
             </a>
           </div>
           <div style="height:20vh">
-            <img class="images-height100 imgpic" src="../assets/project1.jpg"/>
+            <a href="http://zimu4show.cn/snowDay/HIT.html" target="_blank">
+              <img class="images-height100 imgpic" src="../assets/project6.jpg"/>
+            </a>
           </div>
         </div>
       </div>
