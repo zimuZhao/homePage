@@ -204,6 +204,24 @@
         </div>
       </div>
       <!-- /ends 明天计算 -->
+      <!-- 其他 left -->
+      <div class="box-flex width-80 margin-auto">
+        <div class="box-flex width-100">
+          <div class="flex-1">
+            <h1>其他</h1>
+            <!--<img class="images-con imgpic" src="../assets/project7.jpg"/>-->
+          </div>
+          <div class="box-flex flex-2 padding-all flex-direction-column">
+            <a href="http://zimu4show.cn/DuoDuoMS/login.html" target="_blank">
+              <span class="tirtleFont lineThrou">健康朵朵后台</span>
+            </a>
+            <a href="http://zimu4show.cn/regl-points-demo/index.html" target="_blank">
+              <span class="tirtleFont lineThrou">REGL</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /ends 其他 -->
     </div>
     <!-- /ends projectList -->
     <!-- Personal Profile -->
